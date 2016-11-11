@@ -6,6 +6,7 @@ import time
 
 r = praw.Reddit(user_agent = "insert bot name and user name message")
 r.login('username','password',disable_warning = True) 		# disable_warning disables the login screen during command window
+								# should be created in different source to be made private
 
 words_to_match = ['word1','word2','word3','...and so on'] 	# add words so that bot can check what to look for 
 cache = []  										# array for storing already found mismatched words and their id
