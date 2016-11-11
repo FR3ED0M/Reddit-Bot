@@ -1,5 +1,6 @@
 # this is a template for a reddit bot for grammar checking comments
 # make sure to have python 3.5 and pip installed
+# run within cmd.exe if needed for test purposes
 
 import praw 
 import time
